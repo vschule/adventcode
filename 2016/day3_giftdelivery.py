@@ -45,16 +45,6 @@ def first(str_input):
     return coord_dict.__len__()
 
 
-def multiply_box(list_values):
-    pass
-
-# The ribbon required to wrap a present is the shortest distance around its sides,
-#  or the smallest perimeter of any one face.
-# Each present also requires a bow made out of ribbon as well;
-#  the feet of ribbon required for the perfect bow is equal to the cubic feet of volume of the present.
-#  Don't ask how they tie the bow, though; they'll never tell.
-
-
 def second(str_input):
     coord_dict = defaultdict(int)
 
@@ -73,7 +63,6 @@ def second(str_input):
         coord_dict[robot_santa] += 1
 
     return coord_dict.__len__()
-
 
 
 def test_first():
