@@ -1,5 +1,5 @@
 from collections import defaultdict
-from day3_giftdelivery import Coordinate
+from adv_2016.day3_giftdelivery import Coordinate
 
 class Rectangle:
     def __init__(self, genre):
