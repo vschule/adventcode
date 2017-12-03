@@ -12,12 +12,12 @@ PARSE_COORD = {'^': [1, 0], 'v': [-1, 0], '>': [0, 1], '<': [0, -1]}
 class Coordinate:
     def __init__(self, arg1, arg2=None):
         if isinstance(arg1, list):
-            self.x = arg1[0]
-            self.y = arg1[1]
+            self.x = int(arg1[0])
+            self.y = int(arg1[1])
 
         else :
-            self.x = arg1
-            self.y = arg2
+            self.x = int(arg1)
+            self.y = int(arg2)
 
     def __add__(self, other):
         return Coordinate(self.x + other.x, self.y + other.y)

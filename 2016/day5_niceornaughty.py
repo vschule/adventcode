@@ -99,5 +99,5 @@ if __name__ == '__main__':
     with open('input_5.txt', 'r') as input_file:
         input_value = input_file.read()
 
-    print(first(input_value))
-    print(second(input_value))
+    print("first problem :", first(input_value))
+    print("second problem:", second(input_value))
