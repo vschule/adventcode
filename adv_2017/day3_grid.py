@@ -1,4 +1,4 @@
-from adv_2016.day3_giftdelivery import Coordinate
+from adv_2015.day3_giftdelivery import Coordinate
 from collections import defaultdict
 
 def first(str_input):
